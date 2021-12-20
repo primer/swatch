@@ -26,11 +26,17 @@ examples:
 
 [mode=light&token=scale.pink[2]](https://swatch-sid.vercel.app?mode=light&token=scale.pink[2])
 
-![mode=light, token=actionListItem.danger.hoverText](https://swatch-sid.vercel.app?mode=light&token=actionListItem.danger.hoverText)
+![mode=light_high_contrast, token=actionListItem.danger.hoverText](https://swatch-sid.vercel.app?mode=light&token=actionListItem.danger.hoverText)
 
 [mode=light_high_contrast&token=actionListItem.danger.hoverText](https://swatch-sid.vercel.app?mode=light_high_contrast&token=actionListItem.danger.hoverText)
 
+![mode=light, token=success.fg, size=48](https://swatch-sid.vercel.app?mode=light&token=success.fg&size=48)
+
+[mode=light&token=success.fg&size=48](https://swatch-sid.vercel.app?mode=light&token=success.fg&size=48)
+
 &nbsp;
+
+default size is 24x24px, but you can change it by passing a size for example: `&size=48`
 
 troubleshooting: to see full list of available tokens for a color mode, click here: [mode=light&token=idk](https://swatch-sid.vercel.app/?mode=light&token=idk)
 
