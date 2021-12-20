@@ -38,7 +38,7 @@ app.get('/', async (req, res) => {
   } else {
     res.setHeader('content-type', 'image/svg+xml');
     res.status(200).send(
-      `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="${size}" height="${size}" viewBox="0 0 24 24">
+      `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="${size}" height="${size}" viewBox="0 0 24 24" style="vertical-align: middle">
         <rect xmlns="http://www.w3.org/2000/svg" fill="${color || hex}" x="0" y="0" width="24" height="24" rx="4"/>
        </svg>`
     );
