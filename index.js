@@ -30,7 +30,7 @@ app.listen(process.env.PORT || 3000, () => {
 });
 
 app.get('/', async (req, res) => {
-  const { mode, token, color, size = 24 } = req.query;
+  const { mode, token, size = 24 } = req.query;
   const { hex, error } = getHex(mode, token);
 
   if (error) {
@@ -39,7 +39,7 @@ app.get('/', async (req, res) => {
     res.setHeader('content-type', 'image/svg+xml');
     res.status(200).send(
       `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="${size}" height="${size}" viewBox="0 0 24 24" style="vertical-align: middle">
-        <rect xmlns="http://www.w3.org/2000/svg" fill="${color || hex}" x="0" y="0" width="24" height="24" rx="4"/>
+        <rect xmlns="http://www.w3.org/2000/svg" fill="${hex}" stroke="#0000001a" x="0" y="0" width="24" height="24" rx="4" stroke-linecap="round"/>
        </svg>`
     );
   }
