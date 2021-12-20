@@ -28,7 +28,7 @@ examples:
 
 ![mode=light, token=actionListItem.danger.hoverText](https://swatch-sid.vercel.app?mode=light&token=actionListItem.danger.hoverText)
 
-[mode=light&token=actionListItem.danger.hoverText](https://swatch-sid.vercel.app?mode=light&token=actionListItem.danger.hoverText)
+[mode=light_high_contrast&token=actionListItem.danger.hoverText](https://swatch-sid.vercel.app?mode=light_high_contrast&token=actionListItem.danger.hoverText)
 
 &nbsp;
 
