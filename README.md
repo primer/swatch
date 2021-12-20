@@ -20,19 +20,19 @@ examples:
 
 ![mode=dark, token=fg.onEmphasis](https://swatch-sid.vercel.app?mode=dark&token=fg.onEmphasis)
 
-[mode=dark&token=fg.onEmphasis](https://swatch-sid.vercel.app?mode=dark&token=fg.onEmphasis)
+`![mode=dark, token=fg.onEmphasis](https://swatch-sid.vercel.app?mode=dark&token=fg.onEmphasis)`
 
 ![mode=light, token=fg.onEmphasis](https://swatch-sid.vercel.app?mode=light&token=scale.pink[2])
 
-[mode=light&token=scale.pink[2]](https://swatch-sid.vercel.app?mode=light&token=scale.pink[2])
+`![mode=light&token=scale.pink[2]](https://swatch-sid.vercel.app?mode=light&token=scale.pink[2])`
 
 ![mode=light_high_contrast, token=actionListItem.danger.hoverText](https://swatch-sid.vercel.app?mode=light&token=actionListItem.danger.hoverText)
 
-[mode=light_high_contrast&token=actionListItem.danger.hoverText](https://swatch-sid.vercel.app?mode=light_high_contrast&token=actionListItem.danger.hoverText)
+`![mode=light_high_contrast, token=actionListItem.danger.hoverText](https://swatch-sid.vercel.app?mode=light&token=actionListItem.danger.hoverText)`
 
 ![mode=light, token=success.fg, size=48](https://swatch-sid.vercel.app?mode=light&token=success.fg&size=48)
 
-[mode=light&token=success.fg&size=48](https://swatch-sid.vercel.app?mode=light&token=success.fg&size=48)
+`![mode=light, token=success.fg, size=48](https://swatch-sid.vercel.app?mode=light&token=success.fg&size=48)`
 
 &nbsp;
 
